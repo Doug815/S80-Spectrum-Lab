@@ -26,7 +26,19 @@ S80 Spectrum Lab turns your DOOGEE S80 into a handheld wireless survey tool. Thi
 
 ## Screenshots
 
-*Coming soon — the app is being actively tested on-device.*
+Real screenshots from the DOOGEE S80:
+
+| Home | Scan - Wi-Fi | Scan - BLE |
+|------|--------------|------------|
+| ![Home](screenshot-10.jpg) | ![Wi-Fi](screenshot-09.jpg) | ![BLE](screenshot-08.jpg) |
+
+| Scan - NFC | Scan - UHF (Gated) | Map |
+|------------|-------------------|-----|
+| ![NFC](screenshot-07.jpg) | ![UHF](screenshot-06.jpg) | ![Map](screenshot-05.jpg) |
+
+| Log | Tools - Capabilities | Tools - Details |
+|-----|---------------------|-----------------|
+| ![Log](screenshot-04.jpg) | ![Tools](screenshot-03.jpg) | ![About](screenshot-01.jpg) |
 
 ## Requirements
 
@@ -78,7 +90,7 @@ S80 Spectrum Lab is designed to run alongside [RumiTX](https://github.com/Doug81
 
 ## License
 
-MIT — do what you want, just don't blame us.
+MIT — see [LICENSE](LICENSE) for details.
 
 ## Built with
 
