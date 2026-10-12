@@ -1,0 +1,113 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:1:1-44:12
+INJECTED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:1:1-44:12
+	package
+		INJECTED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:4:5-76
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:4:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:5:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:9:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:10:5-74
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:10:22-71
+uses-permission#android.permission.NFC
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:11:5-62
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:11:22-59
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:13:22-74
+uses-feature#android.hardware.wifi
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:16:5-83
+	android:required
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:16:56-80
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:16:19-55
+uses-feature#android.hardware.bluetooth_le
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:17:5-91
+	android:required
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:17:64-88
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:17:19-63
+uses-feature#android.hardware.nfc
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:18:5-82
+	android:required
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:18:55-79
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:18:19-54
+uses-feature#android.hardware.location.gps
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:19:5-91
+	android:required
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:19:64-88
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:19:19-63
+application
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:23:5-43:19
+INJECTED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:23:5-43:19
+	android:extractNativeLibs
+		INJECTED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:25:9-41
+	android:allowBackup
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:26:9-36
+	android:theme
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:28:9-66
+	android:usesCleartextTraffic
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:27:9-45
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:24:9-28
+activity#com.spectrumlab.s80.MainActivity
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:30:9-38:20
+	android:exported
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:32:13-36
+	android:configChanges
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:33:13-87
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:31:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:36:27-74
+service#com.spectrumlab.s80.service.SurveyService
+ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:40:9-42:40
+	android:exported
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:41:13-50
+uses-sdk
+INJECTED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml
+INJECTED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml

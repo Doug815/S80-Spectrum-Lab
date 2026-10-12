@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color bg_dark
+color card_border
+color divider
+color electric_cyan
+color fg_dim
+color fg_light
+color fg_muted
+color indigo
+color red_fault
+color rssi_excellent
+color rssi_fair
+color rssi_good
+color rssi_poor
+color scan_active
+color scan_inactive
+color status_blocked
+color status_busy
+color status_conditional
+color status_not_present
+color status_permission_needed
+color status_supported
+color status_unverified
+color surface
+color surface_elevated
+color warm_amber

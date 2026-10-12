@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.spectrumlab.s80"
+4    android:versionCode="2"
+5    android:versionName="0.2.0-phase1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="27" />
+10
+11    <!-- Wi-Fi scan results (Android 8.x gates these behind location) -->
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:4:5-76
+12-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:4:22-73
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:5:5-76
+13-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:5:22-73
+14    <!-- Runtime location permission: required by Android 8.x for Wi-Fi/BLE scan results and GPS -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:7:5-79
+15-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:7:22-76
+16    <!-- Bluetooth classic permissions (Android 8.1 model; NOT the Android 12+ BLUETOOTH_SCAN/CONNECT) -->
+17    <uses-permission android:name="android.permission.BLUETOOTH" />
+17-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:9:5-68
+17-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:9:22-65
+18    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+18-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:10:5-74
+18-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:10:22-71
+19    <uses-permission android:name="android.permission.NFC" />
+19-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:11:5-62
+19-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:11:22-59
+20    <!-- Declared for forward compatibility only; not required at targetSdk 27 -->
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:13:5-77
+21-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:13:22-74
+22
+23    <!-- All optional: app must run when hardware is missing/off -->
+24    <uses-feature
+24-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:16:5-83
+25        android:name="android.hardware.wifi"
+25-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:16:19-55
+26        android:required="false" />
+26-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:16:56-80
+27    <uses-feature
+27-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:17:5-91
+28        android:name="android.hardware.bluetooth_le"
+28-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:17:19-63
+29        android:required="false" />
+29-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:17:64-88
+30    <uses-feature
+30-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:18:5-82
+31        android:name="android.hardware.nfc"
+31-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:18:19-54
+32        android:required="false" />
+32-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:18:55-79
+33    <uses-feature
+33-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:19:5-91
+34        android:name="android.hardware.location.gps"
+34-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:19:19-63
+35        android:required="false" />
+35-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:19:64-88
+36    <!-- NOTE: INTERNET permission is intentionally absent (offline-first, docs/06 ADR-003). -->
+37    <application
+37-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:23:5-43:19
+38        android:name="com.spectrumlab.s80.App"
+38-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:24:9-28
+39        android:allowBackup="false"
+39-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:26:9-36
+40        android:debuggable="true"
+41        android:extractNativeLibs="false"
+42        android:label="S80 Spectrum Lab"
+42-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:25:9-41
+43        android:theme="@android:style/Theme.Material.NoActionBar"
+43-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:28:9-66
+44        android:usesCleartextTraffic="false" >
+44-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:27:9-45
+45        <activity
+45-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:30:9-38:20
+46            android:name="com.spectrumlab.s80.MainActivity"
+46-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:31:13-41
+47            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+47-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:33:13-87
+48            android:exported="true" >
+48-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:32:13-36
+49            <intent-filter>
+49-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:34:13-37:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:35:17-69
+50-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:35:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:36:17-77
+52-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:36:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <service
+56-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:40:9-42:40
+57            android:name="com.spectrumlab.s80.service.SurveyService"
+57-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:41:13-50
+58            android:exported="false" />
+58-->/mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/AndroidManifest.xml:42:13-37
+59    </application>
+60
+61</manifest>

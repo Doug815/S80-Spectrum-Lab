@@ -1,0 +1,11 @@
+# Known limits (must be fixed before a production release)
+- This is a UI-and-API illustrative starter, NOT an audited security instrument.
+- Wi-Fi result receiver is registered during activity lifetime and lacks per-request cancel/session correlation. A callback after Stop must not be written to a stopped production session; add generation tokens and unregister per session.
+- BLE scan may emit repeated results at high volume; add dedup/rate limiting and bounded queue.
+- Only adapter status + tech lists proven at runtime; no chipset/driver diagnostics.
+- NFC does not perform writing or HCE; not a universal access credential reader.
+- GPS coordinates intentionally omitted from starter store; full opt-in location workflow not implemented.
+- Store appends JSONL, has a 5MB guard and JSON summary export but lacks rotation/purge/manifest hashes/database indexes or session closing; implement schema-backed SQLite and retention.
+- No actual UHF, JNI, root, monitor-mode or USB HID functions. These are intentionally feature-gated until tested.
+- BSSID/BT address masking in starter is a display/data reduction example, not secure per-session HMAC. Add a privacy-tested keyed format.
+- SDK toolchain and device build not verified here; compile and fix on connected build workstation.

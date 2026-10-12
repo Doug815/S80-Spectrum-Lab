@@ -1,0 +1,7 @@
+com.spectrumlab.s80.app-pngs-0 /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/build/generated/res/pngs/debug
+com.spectrumlab.s80.app-resValues-1 /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/build/generated/res/resValues/debug
+com.spectrumlab.s80.app-packageDebugResources-2 /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.spectrumlab.s80.app-packageDebugResources-3 /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.spectrumlab.s80.app-debug-4 /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.spectrumlab.s80.app-debug-5 /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/debug/res
+com.spectrumlab.s80.app-main-6 /mnt/windows/LinuxData/spectrum-lab/S80_Spectrum_Lab_2030/android-starter/app/src/main/res

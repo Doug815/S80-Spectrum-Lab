@@ -1,0 +1,27 @@
+<resources>
+    <color name="bg_dark">#080D17</color>
+    <color name="surface">#111C2B</color>
+    <color name="surface_elevated">#1A2A3E</color>
+    <color name="electric_cyan">#35D7FF</color>
+    <color name="indigo">#6788FF</color>
+    <color name="warm_amber">#F6B449</color>
+    <color name="red_fault">#FF6269</color>
+    <color name="fg_light">#EAF3FF</color>
+    <color name="fg_muted">#8EA3BB</color>
+    <color name="fg_dim">#5A7A9E</color>
+    <color name="card_border">#1E3A5F</color>
+    <color name="divider">#1E3A5F</color>
+    <color name="scan_active">#35D7FF</color>
+    <color name="scan_inactive">#4A5A6A</color>
+    <color name="status_supported">#35D7FF</color>
+    <color name="status_conditional">#F6B449</color>
+    <color name="status_blocked">#FF6269</color>
+    <color name="status_not_present">#4A5A6A</color>
+    <color name="status_unverified">#F6B449</color>
+    <color name="status_permission_needed">#F6B449</color>
+    <color name="status_busy">#6788FF</color>
+    <color name="rssi_excellent">#35D7FF</color>
+    <color name="rssi_good">#6788FF</color>
+    <color name="rssi_fair">#F6B449</color>
+    <color name="rssi_poor">#FF6269</color>
+</resources>
